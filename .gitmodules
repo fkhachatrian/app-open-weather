@@ -1,0 +1,3 @@
+[submodule ".vagrant_template"]
+	path = .vagrant_template
+	url = git@bitbucket.org:wicastrapps/vagrant_template.git
