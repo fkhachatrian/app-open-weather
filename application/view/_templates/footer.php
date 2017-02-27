@@ -9,8 +9,8 @@
     </script>
 
     <!-- our JavaScript -->
-    <script src="<?php echo URL; ?>js/plugins/open-weather/openWeather.js"></script>
-    <script src="<?php echo URL; ?>js/plugins/geolocator/dist/geolocator.js"></script>
-    <script src="<?php echo URL; ?>js/application.js"></script>
+    <script src="<?php echo URL_PUBLIC; ?>js/plugins/open-weather/openWeather.js"></script>
+    <script src="<?php echo URL_PUBLIC; ?>js/plugins/geolocator/dist/geolocator.js"></script>
+    <script src="<?php echo URL_PUBLIC; ?>js/application.js"></script>
 </body>
 </html>

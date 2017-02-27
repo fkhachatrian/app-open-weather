@@ -1,4 +1,4 @@
-<link href="<?php echo URL; ?>js/plugins/open-weather/css/style.css" rel="stylesheet">
+<link href="<?php echo URL_PUBLIC; ?>js/plugins/open-weather/css/style.css" rel="stylesheet">
 
     <div class="weather-wrapper hide">
 

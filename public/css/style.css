@@ -6,7 +6,7 @@ body {
 .logo {
     width: 200px;
     height: 170px;
-    background: url('/img/logo.jpg');
+    background: url('/public/img/logo.jpg');
     margin: 20px 30px;
 }
 .navigation {
