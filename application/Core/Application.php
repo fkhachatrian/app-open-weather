@@ -65,10 +65,11 @@ class Application
      */
     private function splitUrl()
     {
-        if (isset($_GET['url'])) {
+        if (isset($_SERVER['REQUEST_URI'])) {
+            $uri = explode("?", $_SERVER['REQUEST_URI'], 2);
 
             // split URL
-            $url = trim($_GET['url'], '/');
+            $url = trim($uri[0], '/');
             $url = filter_var($url, FILTER_SANITIZE_URL);
             $url = explode('/', $url);
 
