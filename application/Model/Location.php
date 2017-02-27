@@ -14,7 +14,7 @@ namespace Mini\Model;
 
 use Mini\Core\Model;
 
-define('DATAFILE', ROOT . "data/location");
+define('DATAFILE', ROOT . "../data/location");
 
 class Location extends Model
 {
