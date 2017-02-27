@@ -23,7 +23,7 @@ class Location extends Model
      */
     public function getLocation()
     {
-        $dataFile = fopen(DATAFILE, "r");
+        $dataFile = fopen(DATAFILE, "a+");
 
         if (!$dataFile) {
             return "";
@@ -40,7 +40,7 @@ class Location extends Model
      */
     public function setLocation($location)
     {
-        $dataFile = fopen(DATAFILE, "w");
+        $dataFile = fopen(DATAFILE, "w+");
 
         if (!$dataFile) {
             return false;
